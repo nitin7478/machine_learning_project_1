@@ -1,7 +1,7 @@
 # machine_learning_project_1
 My First project upload 
 
-Create conda environment
+Create conda environment(Use command prompt terminal inside vscode)
 ```
 conda init
 conda create -p venv python== 3.10 -y 
@@ -27,11 +27,12 @@ To add files
 git add <file_name>
 ```
 
-Note : To ignore file or folder we can add filename or folder name to .gitingnore file
+Note: To ignore file or folder we can add filename or folder name to .gitingnore file
 To check git status
 ```
 git status
 ```
+
 To check all versions
 ````
 git log
