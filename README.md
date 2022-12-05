@@ -27,7 +27,7 @@ To add files
 git add <file_name>
 ```
 
-Note : To ignorre file or folder we can add filename or folder name to .gitingnore file
+Note : To ignore file or folder we can add filename or folder name to .gitingnore file
 To check git status
 ```
 git status
@@ -44,4 +44,12 @@ git commit -m "message"
 To send changes/version to github 
 ```
 git push origin main
+```
+To check remote url
+```
+git remote -v
+```
+To check your branch
+```
+git branch
 ```
