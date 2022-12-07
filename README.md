@@ -57,8 +57,12 @@ git branch
  
 
  Heroku email : nitin7478@gmail.com
- api_key : 92bb0b61-afc3-4cd5-8918-8483f824de77
+ api_key : <>
  heroku_app_name : ml-first-p
+
+create Dockerfile
+create .dockerignore file
+
 
  BUILD DOCKER IMAGE
  ```
@@ -84,10 +88,15 @@ To stop docker image
 ```
 docker stop <container_id>
 ```
+
+* create project folder and create new file name __init__.py. it will create this folder as package
+
+Create setup.py file
+
 To install setup on cmd in vscode
 ```
 python setup.py install
 ```
-
+setup.py will install all the requirement along with project/package folder.
 
 
