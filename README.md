@@ -62,9 +62,10 @@ git branch
 
  BUILD DOCKER IMAGE
  ```
- docker build -t <image_name>:<tagname>
+ docker build -t <image_name>:<tagname> .
  ```
-    Note: Image name mustbe in lowercase
+
+* Note: Image name mustbe in lowercase
 
 To list docker images
 ```
@@ -72,7 +73,7 @@ docker images
 ```
 To run docker image
 ```
-docker run -p 5000:5000 -e PORT=5000 <docker_image_id>
+docker run -p 5000:5000 -e PORT=5000 <docker_image_id> 
 ```
 
 To check running container in docker
