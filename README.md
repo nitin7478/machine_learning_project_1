@@ -84,7 +84,10 @@ To stop docker image
 ```
 docker stop <container_id>
 ```
-
+To install setup on cmd in vscode
+```
+python setup.py install
+```
 
 
 
